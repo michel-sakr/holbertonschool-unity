@@ -344,8 +344,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 290648865}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15, y: 0, z: 27.4}
-  m_LocalScale: {x: 2, y: 1, z: 2}
+  m_LocalPosition: {x: 15, y: -5.4, z: 27.4}
+  m_LocalScale: {x: 3, y: 5, z: 3}
   m_Children: []
   m_Father: {fileID: 730376879}
   m_RootOrder: 9
@@ -1177,7 +1177,7 @@ Transform:
   m_GameObject: {fileID: 844644157}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 35.2, y: 0, z: 56.2}
-  m_LocalScale: {x: 10, y: 1, z: 10}
+  m_LocalScale: {x: 10, y: 6, z: 10}
   m_Children: []
   m_Father: {fileID: 730376879}
   m_RootOrder: 6
@@ -1273,8 +1273,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1017491478}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 22.22, y: 0, z: 40.73}
-  m_LocalScale: {x: 5, y: 1, z: 5}
+  m_LocalPosition: {x: 22.22, y: -3.7, z: 40.73}
+  m_LocalScale: {x: 5, y: 7, z: 5}
   m_Children: []
   m_Father: {fileID: 730376879}
   m_RootOrder: 10
@@ -1467,7 +1467,7 @@ Transform:
   m_GameObject: {fileID: 1368051977}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 22.8, y: 0, z: 17.6}
-  m_LocalScale: {x: 5, y: 1, z: 5}
+  m_LocalScale: {x: 5, y: 4, z: 5}
   m_Children: []
   m_Father: {fileID: 730376879}
   m_RootOrder: 2
@@ -1685,7 +1685,7 @@ Transform:
   m_GameObject: {fileID: 1568192360}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 20.2, y: 0, z: 63.3}
-  m_LocalScale: {x: 5, y: 1, z: 5}
+  m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 730376879}
   m_RootOrder: 5
@@ -2138,6 +2138,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1805538200572846585, guid: ef822e8ffbd80da47b73e2f87b4b65fd, type: 3}
+      propertyPath: m_PixelPerfect
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1805538200572846586, guid: ef822e8ffbd80da47b73e2f87b4b65fd, type: 3}
       propertyPath: m_Name
       value: TimerCanvas
