@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
@@ -17,7 +18,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         control = GetComponent<CharacterController>();
-        speed = 10f;
+        speed = 5f;
         jumpSpeed = 10f;
         gravity = 20f;
     }

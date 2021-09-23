@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System;
-
 public class Timer : MonoBehaviour
 {
     public Text TimerText;
@@ -21,6 +20,7 @@ public class Timer : MonoBehaviour
         millisec = (int)(iTimer * 100) % 100;
         sec = (int)(iTimer % 60f);
         min = (int)(iTimer / 60f);
-        TimerText.text = String.Format("{0:0}:{1:00}:{2:00}", min, sec, millisec);
+        TimerText.text = String.Format("{0:0}:{1:00}:{2:00}",min,sec,millisec);
+
     }
 }
